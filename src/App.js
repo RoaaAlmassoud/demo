@@ -3,10 +3,10 @@ import MainLayout from '../src/components/main-layout/main-layout.js'
 //import 'semantic-ui-css/semantic.min.css'
 import {Label} from "semantic-ui-react";
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
-import FirstDemoComponent from "../components/first-demo/first-demo-component.jsx"
-import SecondDemo from '../components/second-demo/second-demo.jsx'
-import ThirdDemo from '../components/third-demo/third-demo.jsx'
-import FourthDemo from '../components/fouth-demo/fourth-demo.jsx'
+import FirstDemoComponent from "../src/components/first-demo/first-demo-component.jsx"
+import SecondDemo from '../src/components/second-demo/second-demo.jsx'
+import ThirdDemo from '../src/components/third-demo/third-demo.jsx'
+import FourthDemo from '../src/components/fouth-demo/fourth-demo.jsx'
 
 export default class App extends Component {
     constructor(props) {
