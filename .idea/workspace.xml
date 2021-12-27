@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7470aff2-a32b-4f52-931f-54527b042d80" name="Default Changelist" comment="" />
+    <list default="true" id="7470aff2-a32b-4f52-931f-54527b042d80" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/dist/b05a8fe7b2b67e61d34a5bde2e65d0c7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/c522c1434eabe56a7ccfdb42edb33fea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/demo1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/d81d31c3d3c95824252c9d10e57eb360.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/avocado.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/bicycle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/fruit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/glass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/notepad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/panther.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/puzzle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/sample-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/sample-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/sample-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/sample-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/sample-05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/tree.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/index.7074ca3c742b0d0da639.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -110,8 +134,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="98">
+              <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -183,7 +207,6 @@
         <option value="$PROJECT_DIR$/src/components/second-demo/js/particles.js" />
         <option value="$PROJECT_DIR$/src/components/fouth-demo/base.css" />
         <option value="$PROJECT_DIR$/src/components/second-demo/css/base.css" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/scripts/index.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/components/first-demo/first-demo-component.jsx" />
@@ -192,6 +215,7 @@
         <option value="$PROJECT_DIR$/src/components/fouth-demo/fourth-demo.jsx" />
         <option value="$PROJECT_DIR$/src/scripts/App.js" />
         <option value="$PROJECT_DIR$/src/components/main-layout/main-layout.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -222,72 +246,12 @@
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="first-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="fouth-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="main-layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="second-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="second-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="second-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="second-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="third-demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
@@ -322,11 +286,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/static/images" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/components/second-demo/img" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/scripts" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/second-demo/js" />
@@ -372,7 +336,7 @@
       <workItem from="1640496314337" duration="10000" />
       <workItem from="1640560858111" duration="2829000" />
       <workItem from="1640564634993" duration="176000" />
-      <workItem from="1640564921260" duration="19310000" />
+      <workItem from="1640564921260" duration="19550000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1639582621635</created>
@@ -392,7 +356,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108706000" />
+    <option name="totallyTimeSpent" value="108946000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -405,7 +369,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="830" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15785764" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -714,8 +677,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="98">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
         </state>
       </provider>
     </entry>
