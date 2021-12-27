@@ -2,9 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7470aff2-a32b-4f52-931f-54527b042d80" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main-layout/main-layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-layout/main-layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/0b73adbbdf33be840fb9debb681f60e2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/b05a8fe7b2b67e61d34a5bde2e65d0c7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/c522c1434eabe56a7ccfdb42edb33fea.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/css/demo1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/d81d31c3d3c95824252c9d10e57eb360.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/dbd46efc7e95d02f746dc2cdeff08739.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/avocado.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/bicycle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/fruit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/glass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/notepad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/panther.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/puzzle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/sample-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/sample-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/sample-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/sample-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/sample-05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/images/tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/gh-pages/https!github.com!Roaa-Almasoud!demo.git" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/gh-pages/https!github.com!Roaa-Almasoud!demo.git" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,7 +38,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -30,7 +51,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/first-demo/first-demo-component.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -206,6 +239,13 @@
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="first-demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="main-layout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -293,7 +333,7 @@
       <workItem from="1640560858111" duration="2829000" />
       <workItem from="1640564634993" duration="176000" />
       <workItem from="1640564921260" duration="21132000" />
-      <workItem from="1640622865199" duration="2498000" />
+      <workItem from="1640622865199" duration="2704000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1639582621635</created>
@@ -316,11 +356,18 @@
       <option name="project" value="LOCAL" />
       <updated>1640626056287</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit">
+      <created>1640626445851</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640626445851</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113026000" />
+    <option name="totallyTimeSpent" value="113232000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -333,8 +380,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="830" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15785764" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15785764" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -346,7 +394,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32880434" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3292683" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4989429" visible="true" weight="0.32791328" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989429" visible="true" weight="0.32791328" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010571" side_tool="true" visible="true" weight="0.32791328" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32880434" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
@@ -523,16 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/first-demo/first-demo-component.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/second-demo/second-demo.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
@@ -614,17 +652,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="42" column="72" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-            <element signature="e#153#193#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -649,6 +676,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/first-demo/first-demo-component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="42" column="72" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#153#193#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
