@@ -36,7 +36,7 @@ class MainLayout extends Component {
                         {/*<Link to={'/demo1'}>demo 1</Link>
                         <Link to={'/demo2'}>demo 2</Link>
                         <Link to={'/demo3'}>demo 3</Link>*/}
-                        <a  href="/demo1"  className={`${activeItem === 'demo1'? 'clicked': ''}`}
+                        <a  href=""  className={`${activeItem === 'demo1'? 'clicked': ''}`}
                             onClick={(e) => {this.handleItemClick(e, 'demo1')}}
                         >demo 1</a>
                         <a className={`${activeItem === 'demo2'? 'clicked': ''}`} href=""
