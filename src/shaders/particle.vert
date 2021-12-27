@@ -55,7 +55,7 @@ void main() {
 	displaced.y += sin(angle) * t * 20.0 * rndz;
 
 	// particle size
-	float psize = (snoise_1_2(vec2(uTime, pindex) * 0.5) + 2.0);
+	float psize = (snoise_1_2(vec2(uTime, pindex) * 1.5) + 2.0);
 	psize *= max(grey, 0.2);
 	psize *= uSize;
 

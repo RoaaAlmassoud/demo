@@ -1,8 +1,11 @@
-import ready from 'domready';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App.js';
+import {BrowserRouter} from 'react-router-dom';
 
-import App from './App';
-
-ready(() => {
-	window.app = new App();
-	window.app.init();
-});
+ReactDOM.render(
+	<BrowserRouter>
+		<App />
+	</BrowserRouter>,
+	document.getElementById('container')
+);

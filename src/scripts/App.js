@@ -1,86 +1,53 @@
-import WebGLView from './webgl/WebGLView';
-import GUIView from './gui/GUIView';
+import React, {Component} from "react"
+import MainLayout from '../components/main-layout/main-layout.js'
+//import 'semantic-ui-css/semantic.min.css'
+import {Label} from "semantic-ui-react";
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import FirstDemoComponent from "../components/first-demo/first-demo-component.jsx"
+import SecondDemo from '../components/second-demo/second-demo.jsx'
+import ThirdDemo from '../components/third-demo/third-demo.jsx'
+import FourthDemo from '../components/fouth-demo/fourth-demo.jsx'
 
-export default class App {
+export default class App extends Component {
+    constructor(props) {
+        super(props)
+        console.log('props in main: ', props)
+        this.state = {
 
-	constructor() {
+        }
+    }
 
-	}
-
-	init() {
-		this.initWebGL();
-		this.initGUI();
-		this.addListeners();
-		this.animate();
-		this.resize();
-	}
-
-	initWebGL() {
-		this.webgl = new WebGLView(this);
-		document.querySelector('.container').appendChild(this.webgl.renderer.domElement);
-	}
-
-	initGUI() {
-		this.gui = new GUIView(this);
-	}
-
-	addListeners() {
-		this.handlerAnimate = this.animate.bind(this);
-
-		window.addEventListener('resize', this.resize.bind(this));
-		window.addEventListener('keyup', this.keyup.bind(this));
-		//Position of mouse
-		let mouse = {
-			x: undefined,
-			y: undefined
-		}
-		document.addEventListener('mousemove', function(e){
-			mouse.x = e.clientX || e.pageX;
-			mouse.y = e.clientY || e.pageY;
+    componentWillMount() {
+    }
 
 
-		}, false);
-		
-		const el = this.webgl.renderer.domElement;
-		el.addEventListener('click', this.click.bind(this));
-	}
 
-	animate() {
-		this.update();
-		this.draw();
+    render() {
+        console.log('in render')
+        return (
+            <BrowserRouter>
+                    <MainLayout>
+                        <Switch>
 
-		this.raf = requestAnimationFrame(this.handlerAnimate);
-	}
+                            <Route exact path={'/demo1'} render={(props) => <FirstDemoComponent {...props}/>}/>
 
-	// ---------------------------------------------------------------------------------------------
-	// PUBLIC
-	// ---------------------------------------------------------------------------------------------
+                            <Route exact path={'/'}
+                                   render={(props) => <FirstDemoComponent {...props}/>}/>
 
-	update() {
-		if (this.gui.stats) this.gui.stats.begin();
-		if (this.webgl) this.webgl.update();
-		if (this.gui) this.gui.update();
-	}
+                            <Route exact path={'/demo2'}
+                                   render={(props) => <SecondDemo {...props}/>}/>
 
-	draw() {
-		if (this.webgl) this.webgl.draw();
-		if (this.gui.stats) this.gui.stats.end();
-	}
+                            <Route exact path={'/demo3'}
+                                   render={(props) => <ThirdDemo {...props}/>}/>
 
-	// ---------------------------------------------------------------------------------------------
-	// EVENT HANDLERS
-	// ---------------------------------------------------------------------------------------------
+                            <Route exact path={'/demo4'}
+                                   render={(props) => <FourthDemo {...props}/>}/>
 
-	resize() {
-		if (this.webgl) this.webgl.resize();
-	}
+                        </Switch>
+                    </MainLayout>
+            </BrowserRouter>
+        )
+    }
 
-	keyup(e) {
-		// g
-		if (e.keyCode == 71) { if (this.gui) this.gui.toggle(); }
-	}
-
-	click(e) {
-		this.webgl.next();
-	}
 }
+

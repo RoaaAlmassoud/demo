@@ -12,8 +12,8 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 body {
 	--color-text: #fff;
 	--color-bg: #0e0e0f;
-	--color-link: #EE9A00;
-	--color-link-hover: #8e5c00;
+	--color-link-hover: #EE9A00;
+	--color-link: #8e5c00;
 	color: var(--color-text);
 	background-color: var(--color-bg);
 	font-family: Futura, "futura-pt", Arial, sans-serif;
@@ -25,12 +25,18 @@ a {
 	text-decoration: none;
 	color: var(--color-link);
 	outline: none;
+	padding-bottom: 2px;
 }
 
 a:hover,
 a:focus {
 	color: var(--color-link-hover);
 	outline: none;
+}
+
+a.clicked{
+	color: var(--color-link-hover);
+	border-bottom: 1px solid;
 }
 
 .frame {
