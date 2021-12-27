@@ -8,11 +8,10 @@ import FourthDemo from '../fouth-demo/fourth-demo.jsx';
 export default class FirstDemoComponent extends Component {
 
     constructor(props) {
-
-
         super(props)
-        console.log('props in first demo: ', props)
-        window.app = new FirstDemo();
+        this.hash = props.location.hash
+        console.log('this.hash: ', this.hash)
+        window.app = this.hash!== '#/demo2' && this.hash!== '#/demo3' && this.hash !== '#/demo4'?new FirstDemo(): {};
     }
 
     componentWillUnmount() {
