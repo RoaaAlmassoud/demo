@@ -23,7 +23,7 @@ export default class App extends Component {
 
 
     render() {
-        console.log('in render')
+        console.log('in App.js')
         return (
             <BrowserRouter>
                     <MainLayout>

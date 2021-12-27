@@ -252,6 +252,7 @@ export default class SecondDemo extends Component {
 
     render() {
 
+        console.log('in second')
         return (
 
                 <img src={myimage} id={'second'}/>

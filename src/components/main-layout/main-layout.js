@@ -19,6 +19,7 @@ class MainLayout extends Component {
     }
 
     handleItemClick = (e, name) => {
+
         this.setState({
             activeItem: name
         }, () => {
@@ -28,6 +29,8 @@ class MainLayout extends Component {
 
 
     render() {
+        console.log('in main layout')
+        console.log('this.props.history: ', this.props.history)
         const {activeItem, notificationsCount, notifications, firstCall} = this.state
         return (
             <div className={'main-container'}>
@@ -36,17 +39,17 @@ class MainLayout extends Component {
                         {/*<Link to={'/demo1'}>demo 1</Link>
                         <Link to={'/demo2'}>demo 2</Link>
                         <Link to={'/demo3'}>demo 3</Link>*/}
-                        <a  href=""  className={`${activeItem === 'demo1'? 'clicked': ''}`}
-                            onClick={(e) => {this.handleItemClick(e, 'demo1')}}
+                        <a  href="/demo1"  className={`${activeItem === 'demo1'? 'clicked': ''}`}
+                            //onClick={(e) => {this.handleItemClick(e, 'demo1')}}
                         >demo 1</a>
-                        <a className={`${activeItem === 'demo2'? 'clicked': ''}`} href=""
-                           onClick={(e) => {this.handleItemClick(e, 'demo2')}}
+                        <a className={`${activeItem === 'demo2'? 'clicked': ''}`} href="/demo2"
+                           //onClick={(e) => {this.handleItemClick(e, 'demo2')}}
                         >demo 2</a>
-                        <a className={`${activeItem === 'demo3'? 'clicked': ''}`} href=""
-                           onClick={(e) => {this.handleItemClick(e, 'demo3')}}
+                        <a className={`${activeItem === 'demo3'? 'clicked': ''}`} href="/demo3"
+                           //onClick={(e) => {this.handleItemClick(e, 'demo3')}}
                         >demo 3</a>
-                        <a className={`${activeItem === 'demo4'? 'clicked': ''}`} href=""
-                           onClick={(e) => {this.handleItemClick(e, 'demo4')}}
+                        <a className={`${activeItem === 'demo4'? 'clicked': ''}`} href="/demo4"
+                          // onClick={(e) => {this.handleItemClick(e, 'demo4')}}
                         >demo 4</a>
                     </div>
                 </div>

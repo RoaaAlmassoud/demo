@@ -6,7 +6,7 @@ export default class FirstDemoComponent extends Component {
 
     constructor(props) {
 
-        console.log('in first demo')
+
         super(props)
         window.app = new FirstDemo();
     }
@@ -16,7 +16,7 @@ export default class FirstDemoComponent extends Component {
     }
 
     render() {
-
+        console.log('in first demo')
         return (
             <div>
 

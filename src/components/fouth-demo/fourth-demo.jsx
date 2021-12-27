@@ -123,7 +123,7 @@ export default class FourthDemo extends Component {
     }
 
     render() {
-
+console.log('in fourth')
         return (
             <div>
 
