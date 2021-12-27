@@ -1,5 +1,5 @@
 import React, {Component} from "react"
-import MainLayout from '../components/main-layout/main-layout.js'
+import MainLayout from '../src/components/main-layout/main-layout.js'
 //import 'semantic-ui-css/semantic.min.css'
 import {Label} from "semantic-ui-react";
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
