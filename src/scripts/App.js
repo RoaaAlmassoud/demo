@@ -29,18 +29,18 @@ export default class App extends Component {
                     <MainLayout>
                         <Switch>
 
-                            <Route exact path={process.env.PUBLIC_URL + '/demo/demo1'} render={(props) => <FirstDemoComponent {...props}/>}/>
+                            <Route exact path={'/demo1'} render={(props) => <FirstDemoComponent {...props}/>}/>
 
-                            <Route exact path={process.env.PUBLIC_URL + '/'}
+                            <Route exact path={'/'}
                                    render={(props) => <FirstDemoComponent {...props}/>}/>
 
-                            <Route exact path={process.env.PUBLIC_URL + '/demo/demo2'}
+                            <Route exact path={'/demo2'}
                                    render={(props) => <SecondDemo {...props}/>}/>
 
-                            <Route exact path={process.env.PUBLIC_URL + '/demo/demo3'}
+                            <Route exact path={'/demo3'}
                                    render={(props) => <ThirdDemo {...props}/>}/>
 
-                            <Route exact path={process.env.PUBLIC_URL + '/demo/demo4'}
+                            <Route exact path={'/demo4'}
                                    render={(props) => <FourthDemo {...props}/>}/>
 
                         </Switch>
