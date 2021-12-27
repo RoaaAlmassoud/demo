@@ -6,7 +6,7 @@
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "build": "react-scripts build webpack -p --config config/prod.js",
+    "build": "webpack -p --config config/prod.js react-scripts build ",
     "start": "webpack-dev-server --config config/dev.js"
   },
   "dependencies": {
