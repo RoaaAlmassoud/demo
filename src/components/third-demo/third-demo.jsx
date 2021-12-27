@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import myImage from '../../../static/images/home.png'
+import myImage from '../../static/images/home.png'
 
 export default class ThirdDemo extends Component {
 
