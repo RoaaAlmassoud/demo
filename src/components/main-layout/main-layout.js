@@ -1,11 +1,16 @@
 import React, {Component} from 'react'
-import {withRouter} from "react-router-dom";
+import {withRouter, Link} from "react-router-dom";
+import {Menu, Dropdown, Button, Icon} from "semantic-ui-react";
 
 
 class MainLayout extends Component {
     constructor(props) {
         super(props)
+        console.log('props: ', props)
         this.state = {
+            notificationsCount: 0,
+            notifications: [],
+            firsCall: true
         }
         let pathName = props ? props.location.pathname.substring(1) : 'first'
         this.state = {
@@ -13,19 +18,55 @@ class MainLayout extends Component {
         }
     }
 
+    handleItemClick = (e, name) => {
+        this.setState({
+            activeItem: name
+        }, () => {
+            this.props.history.push(`/${name}`)
+        })
+    }
+
 
     render() {
-        const {activeItem} = this.state
+        const {activeItem, notificationsCount, notifications, firstCall} = this.state
         return (
             <div className={'main-container'}>
                 <div className="frame">
                     <div className="frame__links">
-                        <a  href="/demo1"  className={`${activeItem === 'demo1'? 'clicked': ''}`}>demo 1</a>
-                        <a className={`${activeItem === 'demo2'? 'clicked': ''}`} href="/demo2">demo 2</a>
-                        <a className={`${activeItem === 'demo3'? 'clicked': ''}`} href="demo3">demo 3</a>
-                        <a className={`${activeItem === 'demo4'? 'clicked': ''}`} href="demo4">demo 4</a>
+                        {/*<Link to={'/demo1'}>demo 1</Link>
+                        <Link to={'/demo2'}>demo 2</Link>
+                        <Link to={'/demo3'}>demo 3</Link>*/}
+                        <a  href="/demo1"  className={`${activeItem === 'demo1'? 'clicked': ''}`}
+                            onClick={(e) => {this.handleItemClick(e, 'demo1')}}
+                        >demo 1</a>
+                        <a className={`${activeItem === 'demo2'? 'clicked': ''}`} href=""
+                           onClick={(e) => {this.handleItemClick(e, 'demo2')}}
+                        >demo 2</a>
+                        <a className={`${activeItem === 'demo3'? 'clicked': ''}`} href=""
+                           onClick={(e) => {this.handleItemClick(e, 'demo3')}}
+                        >demo 3</a>
+                        <a className={`${activeItem === 'demo4'? 'clicked': ''}`} href=""
+                           onClick={(e) => {this.handleItemClick(e, 'demo4')}}
+                        >demo 4</a>
                     </div>
                 </div>
+
+                {/* <Menu id={"navbar"} borderless className={"navbar-section frame"}>
+              <div className={'frame__links'}>
+                  <Menu.Item
+                      name='demo1'
+                      active={activeItem === 'first'}
+                      onClick={this.handleItemClick}
+                  />
+                  <Menu.Item
+                      name='demo2'
+                      active={activeItem === 'second'}
+                      onClick={this.handleItemClick}
+                  />
+              </div>
+
+
+                </Menu>*/}
                 <div>
                     {this.props.children}
                 </div>

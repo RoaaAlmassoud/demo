@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7470aff2-a32b-4f52-931f-54527b042d80" name="Default Changelist" comment="" />
+    <list default="true" id="7470aff2-a32b-4f52-931f-54527b042d80" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/dist/b05a8fe7b2b67e61d34a5bde2e65d0c7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/c522c1434eabe56a7ccfdb42edb33fea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/demo1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/d81d31c3d3c95824252c9d10e57eb360.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/avocado.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/bicycle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/fruit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/glass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/home.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/notepad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/panther.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/puzzle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/sample-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/sample-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/sample-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/sample-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/sample-05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/images/tree.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/scripts/index.bbedf9a8a33e20d10fb0.js" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -45,8 +68,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+            <state relative-caret-position="301">
+              <caret line="35" column="79" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -357,7 +380,7 @@
       <workItem from="1640496314337" duration="10000" />
       <workItem from="1640560858111" duration="2829000" />
       <workItem from="1640564634993" duration="176000" />
-      <workItem from="1640564921260" duration="14964000" />
+      <workItem from="1640564921260" duration="15220000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1639582621635</created>
@@ -377,7 +400,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104360000" />
+    <option name="totallyTimeSpent" value="104616000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,6 +413,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="830" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15785764" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -691,8 +715,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
+        <state relative-caret-position="301">
+          <caret line="35" column="79" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="79" />
         </state>
       </provider>
     </entry>
