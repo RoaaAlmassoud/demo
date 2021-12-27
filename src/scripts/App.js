@@ -31,7 +31,7 @@ export default class App extends Component {
 
                             <Route exact path={'/demo1'} render={(props) => <FirstDemoComponent {...props}/>}/>
 
-                            <Route exact path={'/'}
+                            <Route exact path={'/demo'}
                                    render={(props) => <FirstDemoComponent {...props}/>}/>
 
                             <Route exact path={'/demo2'}
