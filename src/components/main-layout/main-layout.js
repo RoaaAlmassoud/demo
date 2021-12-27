@@ -23,7 +23,7 @@ console.log('this.props: ', this.props)
         this.setState({
             activeItem: name
         }, () => {
-            this.props.history.push(`/demo/${name}`)
+            this.props.history.push(`/${name}`)
         })
     }
 

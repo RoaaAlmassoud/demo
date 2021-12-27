@@ -8,6 +8,7 @@ export default class FirstDemoComponent extends Component {
 
 
         super(props)
+        console.log('props in first demo: ', props)
         window.app = new FirstDemo();
     }
 
