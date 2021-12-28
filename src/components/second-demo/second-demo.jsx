@@ -20,18 +20,23 @@ export default class SecondDemo extends Component {
 
     refreshPage = () => {
         console.log('in refresh page')
-        this.setState({
-            refreshed: true
-        }, () => {
-            console.log('after setstate')
-            if(this.state.refreshed){
-                console.log('in reloading')
-                window.location.reload(false);
-            }
-        })
+        let refreshed = this.state.refreshed
+        if(!refreshed){
+            console.log('in reloading')
+            window.location.reload(false);
+        } else {
+            this.setState({
+                refreshed: true
+            }, () => {
+                console.log('after setstate')
+            })
+        }
+
+
     }
 
     componentDidMount() {
+        console.log('before refresh')
         this.refreshPage()
         console.log('second componentDidMount: ', this.props)
         const image = new Image();
