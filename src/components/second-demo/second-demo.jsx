@@ -13,7 +13,7 @@ export default class SecondDemo extends Component {
 
         super(props)
         this.state = {
-            refreshed: false
+            needRefresh: true
         }
         this.refreshPage()
         // window.app = new Sketch();
@@ -23,7 +23,7 @@ export default class SecondDemo extends Component {
     refreshPage = () => {
         console.log('in refresh page')
         this.setState({
-            refreshed: true
+            needRefresh: false
         })
 
 
@@ -281,7 +281,7 @@ export default class SecondDemo extends Component {
 
 
     render() {
-        if (this.state.refreshed) {
+        if (this.state.needRefresh) {
             window.location.reload(true)
         }
         return (
