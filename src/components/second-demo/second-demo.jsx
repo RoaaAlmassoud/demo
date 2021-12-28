@@ -19,15 +19,17 @@ export default class SecondDemo extends Component {
         // window.app = new Sketch();
     }
 
+
     refreshPage = () => {
         console.log('in refresh page')
 
-        window.onload = function() {
+
             if(!window.location.hash) {
+                console.log('inn')
                 window.location = window.location + '#loaded';
                 window.location.reload();
             }
-        }
+
        /* let refreshed = this.state.refreshed
         if(!refreshed){
             console.log('in reloading')*/
