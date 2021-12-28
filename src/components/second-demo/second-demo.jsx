@@ -13,7 +13,7 @@ export default class SecondDemo extends Component {
 
         super(props)
         this.state = {
-            refreshed :false
+            refreshed: false
         }
         this.refreshPage()
         // window.app = new Sketch();
@@ -22,17 +22,14 @@ export default class SecondDemo extends Component {
 
     refreshPage = () => {
         console.log('in refresh page')
+        this.setState({
+            refreshed: true
+        })
 
 
-            if(!window.location.hash) {
-                console.log('inn')
-                window.location = window.location + '#loaded';
-                window.location.reload();
-            }
-
-       /* let refreshed = this.state.refreshed
-        if(!refreshed){
-            console.log('in reloading')*/
+        /* let refreshed = this.state.refreshed
+         if(!refreshed){
+             console.log('in reloading')*/
 
         /*} else {
             this.setState({
@@ -47,15 +44,15 @@ export default class SecondDemo extends Component {
 
     componentDidMount() {
         console.log('before refresh')
-
+        this.refreshPage()
         console.log('second componentDidMount: ', this.props)
         const image = new Image();
         const particles = document.createElement('div');
         particles.id = "particles-js"
         document.getElementById('container').appendChild(particles)
-       /* image.src = myimage
-        image.id = 'second'
-        document.getElementById('container2').appendChild(image)*/
+        /* image.src = myimage
+         image.id = 'second'
+         document.getElementById('container2').appendChild(image)*/
 
         particlesJS('particles-js',
 
@@ -284,11 +281,12 @@ export default class SecondDemo extends Component {
 
 
     render() {
-
-        console.log('in second: ', this.props)
+        if (this.state.refreshed) {
+            window.location.reload(true)
+        }
         return (
 
-                <img src={myimage} id={'second'}/>
+            <img src={myimage} id={'second'}/>
 
 
         );
