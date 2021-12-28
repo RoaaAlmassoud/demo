@@ -14,8 +14,7 @@ export default class SecondDemo extends Component {
     }
 
     componentDidMount() {
-
-
+        console.log('second componentDidMount: ', this.props)
         const image = new Image();
         const particles = document.createElement('div');
         particles.id = "particles-js"
@@ -252,7 +251,7 @@ export default class SecondDemo extends Component {
 
     render() {
 
-        console.log('in second')
+        console.log('in second: ', this.props)
         return (
 
                 <img src={myimage} id={'second'}/>

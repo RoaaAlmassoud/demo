@@ -23,15 +23,13 @@ export default class FirstDemoComponent extends Component {
         switch (this.props.location.hash) {
             case '#/demo2':
                 return <SecondDemo/>
-                break
+                break;
             case '#/demo3':
                 return <ThirdDemo/>
                 break
             case '#/demo4':
                 return <FourthDemo/>
                 break
-
-
         }
     }
 
