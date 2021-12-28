@@ -2,7 +2,7 @@ import React, {Component} from "react"
 import MainLayout from '../components/main-layout/main-layout.js'
 //import 'semantic-ui-css/semantic.min.css'
 import {Label} from "semantic-ui-react";
-import {BrowserRouter, Route, Switch, Router, HashRouter} from 'react-router-dom';
+import {BrowserRouter, Route, Switch, Router} from 'react-router-dom';
 import FirstDemoComponent from "../components/first-demo/first-demo-component.jsx"
 import SecondDemo from '../components/second-demo/second-demo.jsx'
 import ThirdDemo from '../components/third-demo/third-demo.jsx'
@@ -25,7 +25,7 @@ export default class App extends Component {
     render() {
         console.log('in App.js')
         return (
-            <HashRouter>
+            <BrowserRouter>
                     <MainLayout>
                         <Switch>
 
@@ -45,7 +45,7 @@ export default class App extends Component {
 
                         </Switch>
                     </MainLayout>
-            </HashRouter>
+            </BrowserRouter>
         )
     }
 
