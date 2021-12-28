@@ -22,13 +22,13 @@ export default class FirstDemoComponent extends Component {
         console.log('in first demo renderComponents')
         switch (this.props.location.hash) {
             case '#/demo2':
-                return <SecondDemo/>
+                return <SecondDemo props={this.props}/>
                 break;
             case '#/demo3':
-                return <ThirdDemo/>
+                return <ThirdDemo props={this.props}/>
                 break
             case '#/demo4':
-                return <FourthDemo/>
+                return <FourthDemo props={this.props}/>
                 break
         }
     }

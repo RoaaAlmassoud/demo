@@ -37,10 +37,10 @@ export default class App extends Component {
                             <Route exact path={'/demo/#/demo2'}
                                    render={(props) => <SecondDemo {...props}/>}/>
 
-                            <Route exact path={'/demo/demo3'}
+                            <Route exact path={'/demo/#/demo3'}
                                    render={(props) => <ThirdDemo {...props}/>}/>
 
-                            <Route exact path={ '/demo/demo4'}
+                            <Route exact path={ '/demo/#/demo4'}
                                    render={(props) => <FourthDemo {...props}/>}/>
 
                         </Switch>
