@@ -15,7 +15,7 @@ export default class SecondDemo extends Component {
         this.state = {
             needRefresh: true
         }
-        this.refreshPage()
+
         // window.app = new Sketch();
     }
 
