@@ -15,29 +15,30 @@ export default class SecondDemo extends Component {
         this.state = {
             refreshed :false
         }
+        this.refreshPage()
         // window.app = new Sketch();
     }
 
     refreshPage = () => {
         console.log('in refresh page')
-        let refreshed = this.state.refreshed
+       /* let refreshed = this.state.refreshed
         if(!refreshed){
-            console.log('in reloading')
-            window.location.reload(false);
-        } else {
+            console.log('in reloading')*/
+            window.location.reload();
+        /*} else {
             this.setState({
                 refreshed: true
             }, () => {
                 console.log('after setstate')
             })
-        }
+        }*/
 
 
     }
 
     componentDidMount() {
         console.log('before refresh')
-        this.refreshPage()
+
         console.log('second componentDidMount: ', this.props)
         const image = new Image();
         const particles = document.createElement('div');
