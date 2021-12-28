@@ -24,7 +24,7 @@ export default class SecondDemo extends Component {
        /* let refreshed = this.state.refreshed
         if(!refreshed){
             console.log('in reloading')*/
-            window.location.reload();
+
         /*} else {
             this.setState({
                 refreshed: true
