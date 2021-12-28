@@ -21,6 +21,13 @@ export default class SecondDemo extends Component {
 
     refreshPage = () => {
         console.log('in refresh page')
+
+        window.onload = function() {
+            if(!window.location.hash) {
+                window.location = window.location + '#loaded';
+                window.location.reload();
+            }
+        }
        /* let refreshed = this.state.refreshed
         if(!refreshed){
             console.log('in reloading')*/
