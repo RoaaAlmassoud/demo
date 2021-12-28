@@ -15,6 +15,7 @@ export default class SecondDemo extends Component {
 
     componentDidMount() {
         console.log('second componentDidMount: ', this.props)
+        window.location.reload(false);
         const image = new Image();
         const particles = document.createElement('div');
         particles.id = "particles-js"
