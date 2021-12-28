@@ -22,7 +22,7 @@ export default class FirstDemoComponent extends Component {
         console.log('in first demo renderComponents')
         switch (this.props.location.hash) {
             case '#/demo2':
-                window.location.reload(true);
+                window.location.reload();
                 return <SecondDemo props={this.props}/>
                 break;
             case '#/demo3':
