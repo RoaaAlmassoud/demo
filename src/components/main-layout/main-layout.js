@@ -4,6 +4,7 @@ import {Menu, Dropdown, Button, Icon} from "semantic-ui-react";
 
 
 class MainLayout extends Component {
+
     constructor(props) {
         super(props)
         console.log('props: ', props)
@@ -23,10 +24,7 @@ class MainLayout extends Component {
         this.setState({
             activeItem: name
         }, () => {
-            if (name === 'demo3')
-                this.props.history.push(`/demo/${name}`)
-            else
-                this.props.history.push(`/demo/#/${name}`)
+            this.props.history.push(`/demo/#/${name}`)
         })
     }
 
@@ -48,10 +46,10 @@ class MainLayout extends Component {
                         <a className={`${activeItem === 'demo2' ? 'clicked' : ''}`} href="/demo/#/demo2"
                             //onClick={(e) => {this.handleItemClick(e, 'demo2')}}
                         >demo 2</a>
-                        <a className={`${activeItem === 'demo3' ? 'clicked' : ''}`} href="/demo/#/demo3"
-                           //onClick={(e) => {this.handleItemClick(e, 'demo3')}}
+                        <a className={`${activeItem === 'demo3' ? 'clicked' : ''}`} href=""
+                            onClick={(e) => {this.handleItemClick(e, 'demo3')}}
                         >demo 3</a>
-                        <a className={`${activeItem === 'demo4' ? 'clicked' : ''}`} href="/demo/#/demo4"
+                        <a className={`${activeItem === 'demo4' ? 'clicked' : ''}`} href=""
                             //onClick={(e) => {this.handleItemClick(e, 'demo4')}}
                         >demo 4</a>
                     </div>
