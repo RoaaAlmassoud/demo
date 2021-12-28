@@ -20,12 +20,13 @@ class MainLayout extends Component {
     }
 
     handleItemClick = (e, name) => {
+        this.props.history.push(`/demo/#/${name}`)
         console.log('this.props: ', this.props)
-        this.setState({
+        /*this.setState({
             activeItem: name
         }, () => {
             this.props.history.push(`/demo/#/${name}`)
-        })
+        })*/
     }
 
 

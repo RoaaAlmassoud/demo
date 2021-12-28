@@ -282,7 +282,8 @@ export default class SecondDemo extends Component {
 
     render() {
         if (this.state.needRefresh) {
-            window.location.reload(true)
+            location.reload()
+            //window.location.reload(true)
         }
         return (
 

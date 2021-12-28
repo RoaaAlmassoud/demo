@@ -25,7 +25,7 @@ export default class App extends Component {
     render() {
         console.log('in App.js')
         return (
-            <BrowserRouter>
+            <Router>
                     <MainLayout>
                         <Switch>
 
@@ -45,7 +45,7 @@ export default class App extends Component {
 
                         </Switch>
                     </MainLayout>
-            </BrowserRouter>
+            </Router>
         )
     }
 
