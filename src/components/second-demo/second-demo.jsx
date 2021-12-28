@@ -12,12 +12,28 @@ export default class SecondDemo extends Component {
         console.log('in constructor: SecondDemo:')
 
         super(props)
+        this.state = {
+            refreshed :false
+        }
         // window.app = new Sketch();
     }
 
-    componentDidMount() {
-        console.log('second componentDidMount: ', this.props)
+    refreshPage = () => {
+        console.log('in refresh page')
+        this.setState({
+            refreshed: true
+        }, () => {
+            console.log('after setstate')
+            if(this.state.refreshed){
+                console.log('in reloading')
+                window.location.reload(false);
+            }
+        })
+    }
 
+    componentDidMount() {
+        this.refreshPage()
+        console.log('second componentDidMount: ', this.props)
         const image = new Image();
         const particles = document.createElement('div');
         particles.id = "particles-js"
