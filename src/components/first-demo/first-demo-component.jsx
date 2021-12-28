@@ -11,7 +11,8 @@ export default class FirstDemoComponent extends Component {
         super(props)
         this.hash = props.location.hash
         console.log('this.hash: ', this.hash)
-        window.app = this.hash!== '#/demo2' && this.hash!== '#/demo3' && this.hash !== '#/demo4'?new FirstDemo(): {};
+        window.app= new FirstDemo()
+        //window.app = this.hash!== '#/demo2' && this.hash!== '#/demo3' && this.hash !== '#/demo4'?new FirstDemo(): {};
     }
 
     componentWillUnmount() {
@@ -39,7 +40,7 @@ export default class FirstDemoComponent extends Component {
 
         return (
             <div>
-                {this.renderComponents()}
+                {/*{this.renderComponents()}*/}
             </div>
 
         );

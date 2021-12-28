@@ -44,7 +44,7 @@ export default class SecondDemo extends Component {
 
     componentDidMount() {
         console.log('before refresh')
-        this.refreshPage()
+        //this.refreshPage()
         console.log('second componentDidMount: ', this.props)
         const image = new Image();
         const particles = document.createElement('div');
@@ -281,10 +281,10 @@ export default class SecondDemo extends Component {
 
 
     render() {
-        if (this.state.needRefresh) {
+       /* if (this.state.needRefresh) {
             location.reload()
             //window.location.reload(true)
-        }
+        }*/
         return (
 
             <img src={myimage} id={'second'}/>
