@@ -6,10 +6,26 @@ export default class FourthDemo extends Component {
 
     constructor(props) {
         super(props)
+        this.state = {
+            refreshed :false
+        }
     }
 
+    refreshPage = () => {
+        console.log('in refresh page')
+        this.setState({
+            refreshed: true
+        }, () => {
+            console.log('after setstate')
+            if(this.state.refreshed){
+                console.log('in reloading')
+                window.location.reload(false);
+            }
+        })
+    }
 
     componentDidMount() {
+        this.refreshPage()
         console.log('fourth componentDidMount: ', this.props)
         const image = new Image();
         const canvas = document.getElementById('canvas1');

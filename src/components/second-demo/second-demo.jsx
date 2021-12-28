@@ -10,7 +10,7 @@ export default class SecondDemo extends Component {
 
     constructor(props) {
         console.log('in constructor: SecondDemo:')
-        window.location.reload(false);
+
         super(props)
         // window.app = new Sketch();
     }
