@@ -9,13 +9,15 @@ import myimage from "../second-demo/img/3.jpg";
 export default class SecondDemo extends Component {
 
     constructor(props) {
+        console.log('in constructor: SecondDemo:')
+        window.location.reload(false);
         super(props)
         // window.app = new Sketch();
     }
 
     componentDidMount() {
         console.log('second componentDidMount: ', this.props)
-        window.location.reload(false);
+
         const image = new Image();
         const particles = document.createElement('div');
         particles.id = "particles-js"
