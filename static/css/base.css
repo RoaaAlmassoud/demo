@@ -53,11 +53,15 @@ a.clicked{
 }
 
 .frame__links {
-	display: inline;
+	display: none;
 }
 
 .frame a {
 	text-transform: lowercase;
+}
+
+#controlKit .panel{
+	display: none;
 }
 
 .frame__github,
