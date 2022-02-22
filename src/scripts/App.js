@@ -11,7 +11,6 @@ import FourthDemo from '../components/fouth-demo/fourth-demo.jsx'
 export default class App extends Component {
     constructor(props) {
         super(props)
-        console.log('props in main in: ', props)
         this.state = {
 
         }
@@ -23,7 +22,6 @@ export default class App extends Component {
 
 
     render() {
-        console.log('in App.js in')
         return (
             <BrowserRouter>
                     <MainLayout>

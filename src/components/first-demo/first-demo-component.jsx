@@ -10,7 +10,6 @@ export default class FirstDemoComponent extends Component {
     constructor(props) {
         super(props)
         this.hash = props.location.hash
-        console.log('this.hash: ', this.hash)
         window.app= new FirstDemo()
         //window.app = this.hash!== '#/demo2' && this.hash!== '#/demo3' && this.hash !== '#/demo4'?new FirstDemo(): {};
     }

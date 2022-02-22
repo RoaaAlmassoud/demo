@@ -42,7 +42,6 @@ export default class ThirdDemo extends Component {
     }
 
     render() {
-console.log('in third: ', this.props)
         return (
             <div>
 

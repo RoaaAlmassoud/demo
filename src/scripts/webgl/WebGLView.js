@@ -4,8 +4,9 @@ import  TweenLite  from 'gsap';
 import InteractiveControls from './controls/InteractiveControls';
 import Particles from './particles/Particles';
 
-import first from '../../static/images/bicycle.png'
+import first from '../../static/images/earth.png'
 import second from '../../static/images/tree.png'
+import third from '../../static/images/hands.png'
 
 const glslify = require('glslify');
 
@@ -17,6 +18,7 @@ export default class WebGLView {
 		this.samples = [
 			first,
 			second,
+			third
 		];
 
 		this.initThree();
@@ -24,6 +26,7 @@ export default class WebGLView {
 		this.initControls();
 
 		const rnd = ~~(Math.random() * this.samples.length);
+
 		this.goto(rnd);
 	}
 

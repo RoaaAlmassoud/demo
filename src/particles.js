@@ -1274,7 +1274,6 @@ var pJS = function(tag_id, params){
                             pJS.tmp.source_svg = data.currentTarget.response;
                             pJS.fn.vendors.checkBeforeDraw();
                         }else{
-                            console.log('Error pJS - Image not found');
                             pJS.tmp.img_error = true;
                         }
                     }

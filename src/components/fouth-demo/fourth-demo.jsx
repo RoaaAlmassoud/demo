@@ -13,7 +13,6 @@ export default class FourthDemo extends Component {
 
     componentDidMount() {
 
-        console.log('fourth componentDidMount: ', this.props)
         const image = new Image();
         const canvas = document.getElementById('canvas1');
         image.src = first
@@ -117,7 +116,6 @@ export default class FourthDemo extends Component {
             function (event) {
                 mouse.x = event.x + canvas.clientLeft;
                 mouse.y = event.y + canvas.clientTop;
-                console.log('mouse: ')
             });
 
     }
@@ -127,7 +125,6 @@ export default class FourthDemo extends Component {
     }
 
     render() {
-        console.log('in fourth: ', this.props)
         return (
             <div>
 

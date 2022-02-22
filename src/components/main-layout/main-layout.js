@@ -7,7 +7,6 @@ class MainLayout extends Component {
 
     constructor(props) {
         super(props)
-        console.log('props: ', props)
         this.state = {
             notificationsCount: 0,
             notifications: [],
@@ -21,7 +20,6 @@ class MainLayout extends Component {
 
     handleItemClick = (e, name) => {
         this.props.history.push(`/demo/#/${name}`)
-        console.log('this.props: ', this.props)
         /*this.setState({
             activeItem: name
         }, () => {
@@ -31,8 +29,6 @@ class MainLayout extends Component {
 
 
     render() {
-        console.log('in main layout')
-        console.log('this.props.history: ', this.props.history)
         const {activeItem, notificationsCount, notifications, firstCall} = this.state
         return (
             <div className={'main-container'}>

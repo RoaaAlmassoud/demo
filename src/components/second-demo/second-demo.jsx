@@ -9,7 +9,6 @@ import myimage from "../second-demo/img/3.jpg";
 export default class SecondDemo extends Component {
 
     constructor(props) {
-        console.log('in constructor: SecondDemo:')
 
         super(props)
         this.state = {
@@ -21,7 +20,6 @@ export default class SecondDemo extends Component {
 
 
     refreshPage = () => {
-        console.log('in refresh page')
         this.setState({
             needRefresh: false
         })
@@ -43,9 +41,7 @@ export default class SecondDemo extends Component {
     }
 
     componentDidMount() {
-        console.log('before refresh')
         //this.refreshPage()
-        console.log('second componentDidMount: ', this.props)
         const image = new Image();
         const particles = document.createElement('div');
         particles.id = "particles-js"

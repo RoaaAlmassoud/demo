@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7470aff2-a32b-4f52-931f-54527b042d80" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/shaders/particle2.frag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shaders/particle3.frag" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/earth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/hands.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/first-demo/first-demo-component.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/first-demo/first-demo-component.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/fouth-demo/fourth-demo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/fouth-demo/fourth-demo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main-layout/main-layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main-layout/main-layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/second-demo/second-demo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/second-demo/second-demo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/third-demo/third-demo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/third-demo/third-demo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/particles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/particles.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/step1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/step1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/webgl/WebGLView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/webgl/WebGLView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/webgl/particles/Particles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/webgl/particles/Particles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shaders/particle.frag" beforeDir="false" afterPath="$PROJECT_DIR$/src/shaders/particle1.frag" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/static/images/tree.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/images/tree.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,50 +32,52 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
+        <entry file="file://$PROJECT_DIR$/src/scripts/webgl/WebGLView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="145">
+              <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/main-layout/main-layout.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-40">
-              <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#38#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/scripts/App.js">
+        <entry file="file://$PROJECT_DIR$/src/scripts/webgl/particles/Particles.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-241">
-              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+            <state relative-caret-position="197">
+              <caret line="74" column="42" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
               <folding>
-                <element signature="e#0#38#0" expanded="true" />
-                <element signature="e#149#189#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shaders/particle2.frag">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="30" lean-forward="true" selection-end-line="32" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shaders/particle3.frag">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shaders/particle1.frag">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="19" column="44" lean-forward="true" selection-end-line="32" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -69,22 +85,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/first-demo/first-demo-component.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="13" column="33" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="33" />
+            <state relative-caret-position="90">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/first-demo/first-demo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#54#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,9 +98,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>canva</find>
-      <find>logo</find>
-      <find>import * as TH</find>
       <find>.BAS</find>
       <find>three.Bas</find>
       <find>init</find>
@@ -124,6 +125,9 @@
       <find>demo1</find>
       <find>frame__links</find>
       <find>MainLayout</find>
+      <find>particle.fr</find>
+      <find>console</find>
+      <find>this.samples</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -139,12 +143,9 @@
         <option value="$PROJECT_DIR$/src/components/first-demo/first-demo.js" />
         <option value="$PROJECT_DIR$/node_modules/react-scripts/config/webpack.config.js" />
         <option value="$PROJECT_DIR$/.babelrc" />
-        <option value="$PROJECT_DIR$/src/scripts/webgl/particles/Particles.js" />
         <option value="$PROJECT_DIR$/src/components/second-demo/second-demo.html" />
         <option value="$PROJECT_DIR$/src/components/second-demo/script.js" />
         <option value="$PROJECT_DIR$/public/script.js" />
-        <option value="$PROJECT_DIR$/src/shaders/particle.vert" />
-        <option value="$PROJECT_DIR$/src/shaders/particle.frag" />
         <option value="$PROJECT_DIR$/src/components/second-demo/js/shader/vertexParticles.glsl" />
         <option value="$PROJECT_DIR$/src/components/second-demo/js/particle.js" />
         <option value="$PROJECT_DIR$/src/components/third-demo/next-particle.js" />
@@ -159,17 +160,24 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/config/prod.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/components/third-demo/third-demo.jsx" />
-        <option value="$PROJECT_DIR$/src/components/fouth-demo/fourth-demo.jsx" />
-        <option value="$PROJECT_DIR$/src/components/first-demo/first-demo-component.jsx" />
         <option value="$PROJECT_DIR$/src/scripts/index.js" />
-        <option value="$PROJECT_DIR$/src/components/second-demo/second-demo.jsx" />
-        <option value="$PROJECT_DIR$/src/components/main-layout/main-layout.js" />
         <option value="$PROJECT_DIR$/js/.htaccess" />
         <option value="$PROJECT_DIR$/static/css/base.css" />
-        <option value="$PROJECT_DIR$/src/scripts/webgl/WebGLView.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/shaders/particle.vert" />
+        <option value="$PROJECT_DIR$/src/shaders/particle.frag" />
+        <option value="$PROJECT_DIR$/src/components/fouth-demo/fourth-demo.jsx" />
+        <option value="$PROJECT_DIR$/src/components/third-demo/third-demo.jsx" />
+        <option value="$PROJECT_DIR$/src/components/second-demo/second-demo.jsx" />
+        <option value="$PROJECT_DIR$/src/scripts/step1.js" />
         <option value="$PROJECT_DIR$/src/scripts/App.js" />
+        <option value="$PROJECT_DIR$/src/particles.js" />
+        <option value="$PROJECT_DIR$/src/components/main-layout/main-layout.js" />
+        <option value="$PROJECT_DIR$/src/components/first-demo/first-demo-component.jsx" />
+        <option value="$PROJECT_DIR$/src/scripts/webgl/WebGLView.js" />
+        <option value="$PROJECT_DIR$/src/shaders/particle2.frag" />
+        <option value="$PROJECT_DIR$/src/shaders/particle3.frag" />
+        <option value="$PROJECT_DIR$/src/scripts/webgl/particles/Particles.js" />
       </list>
     </option>
   </component>
@@ -208,6 +216,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="webgl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shaders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -223,19 +250,19 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/static/images" />
+      <recent name="$PROJECT_DIR$/static/images" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/components/second-demo/img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/components/second-demo/js" />
       <recent name="$PROJECT_DIR$/static/images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/static/images" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/src/components/second-demo/img" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -287,6 +314,8 @@
       <workItem from="1644024013595" duration="355000" />
       <workItem from="1645361457570" duration="249000" />
       <workItem from="1645375240507" duration="943000" />
+      <workItem from="1645376931419" duration="477000" />
+      <workItem from="1645533829459" duration="2332000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1639582621635</created>
@@ -596,11 +625,18 @@
       <option name="project" value="LOCAL" />
       <updated>1643980867309</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="commit">
+      <created>1645376948335</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1645376948335</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138932000" />
+    <option name="totallyTimeSpent" value="141741000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -613,8 +649,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2903453" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2903453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -626,7 +663,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32880434" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3292683" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4989429" visible="true" weight="0.32674572" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989429" visible="true" weight="0.32674572" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010571" side_tool="true" weight="0.32791328" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32880434" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
@@ -664,18 +701,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/static/images/sample-01.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/static/images/avocado.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/second-demo/img/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/second-demo/img/2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/second-demo/img/3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -696,9 +721,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/static/images/puzzle.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/static/images/tree.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/static/images/panther.png">
@@ -845,44 +867,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/webgl/particles/Particles.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/images/bicycle.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/static/images/tree.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/shaders/particle.frag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shaders/particle.vert">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="48" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/images/0220 MV①_earth_α.png" />
     <entry file="file://$PROJECT_DIR$/src/static/images/first (1).png" />
-    <entry file="file://$PROJECT_DIR$/src/scripts/webgl/WebGLView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="50" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -893,12 +885,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/first-demo/first-demo-component.jsx">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="33" />
+        <state relative-caret-position="75">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/main-layout/main-layout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -913,33 +915,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/main-layout/main-layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-241">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        <state relative-caret-position="335">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
             <element signature="e#149#189#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static/images/tree.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shaders/particle.vert">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="57" column="53" lean-forward="true" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../interactive-particles/src/shaders/particle.vert">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../interactive-particles/src/shaders/particle.frag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/first-demo/first-demo-component.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shaders/particle1.frag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="19" column="44" lean-forward="true" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shaders/particle2.frag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="30" lean-forward="true" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shaders/particle3.frag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/webgl/WebGLView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/webgl/particles/Particles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="74" column="42" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
