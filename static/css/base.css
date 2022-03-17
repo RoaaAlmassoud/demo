@@ -60,9 +60,9 @@ a.clicked{
 	text-transform: lowercase;
 }
 
-/*#controlKit .panel{
+#controlKit .panel{
     display: none;
-}*/
+}
 
 .frame__github,
 .frame__links a:not(:last-child),
