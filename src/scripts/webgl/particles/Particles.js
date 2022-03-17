@@ -131,12 +131,12 @@ export default class Particles {
 
     initTouch() {
         // create only once
-        if (!this.touch) this.touch = new TouchTexture(this);
+        if (!this.touch) this.touch = new TouchTexture(this)
         this.object3D.material.uniforms.uTouch.value = this.touch.texture;
     }
 
     initHitArea() {
-        const geometry = new THREE.PlaneGeometry(this.width, this.height, 1, 1);
+        const geometry = new THREE.PlaneGeometry(this.width, this.height, 3, 1);
         const material = new THREE.MeshBasicMaterial({color: 0xFFFFFF, wireframe: true, depthTest: false});
         material.visible = false;
         this.hitArea = new THREE.Mesh(geometry, material);
@@ -170,9 +170,9 @@ export default class Particles {
         this.object3D.material.uniforms.uTime.value += delta;
     }
 
-    show(time = 1.0) {
+    show(time = 1.5) {
         // reset
-        TweenLite.fromTo(this.object3D.material.uniforms.uSize, time, {value: 0.5}, {value: 1.5});
+        TweenLite.fromTo(this.object3D.material.uniforms.uSize, time, {value: 4.5}, {value: 1.5});
         TweenLite.to(this.object3D.material.uniforms.uRandom, time, {value: 2.0});
         TweenLite.fromTo(this.object3D.material.uniforms.uDepth, time * 1.5, {value: 40.0}, {value: 4.0});
 
@@ -187,8 +187,10 @@ export default class Particles {
                     resolve();
                 }
             });
-            //TweenLite.to(this.object3D.material.uniforms.uDepth, time, { value: -20.0, ease: Quad.easeIn });
-            TweenLite.to(this.object3D.material.uniforms.uSize, time * 0.8, {value: 0.0});
+
+            TweenLite.to(this.object3D.material.uniforms.uDepth, 1.5, { value: 150.0, ease: Quad.easeOut});
+            TweenLite.to(this.object3D.material.uniforms.uSize, time, {value: 0.0});
+            //TweenLite.to(this.object3D.material.uniforms.uSize, time * 0.8, {value: 0.0});
 
             this.removeListeners();
         });

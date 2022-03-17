@@ -13,7 +13,10 @@ export default class FirstDemo {
         this.addListeners();
         this.animate();
         this.resize();
+
     }
+
+
 
     initWebGL() {
         this.webgl = new WebGLView(this);
@@ -70,6 +73,7 @@ export default class FirstDemo {
     }
 
     click(e) {
-        this.webgl.next();
+        //console.log('this.webgl: ', this.webgl)
+        //this.webgl.next();
     }
 }

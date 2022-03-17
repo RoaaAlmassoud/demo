@@ -11,6 +11,7 @@ export default class TouchTexture {
 		this.trail = [];
 
 		this.initTexture();
+
 	}
 
 	initTexture() {
@@ -53,9 +54,10 @@ export default class TouchTexture {
 	addTouch(point) {
 		let force = 0;
 		const last = this.trail[this.trail.length - 1];
+
 		if (last) {
-			const dx = last.x - point.x;
-			const dy = last.y - point.y;
+			const dx =  point.x-900;
+			const dy =  point.y-900;
 			const dd = dx * dx + dy * dy;
 			force = Math.min(dd * 10000, 1);
 		}
@@ -75,8 +77,8 @@ export default class TouchTexture {
 			intensity = easeOutSine(1 - (point.age - this.maxAge * 0.3) / (this.maxAge * 0.7), 0, 1, 1);
 		}
 
-		intensity *= point.force;
 
+		intensity *= point.force;
 		const radius = this.size * this.radius * intensity;
 		const grd = this.ctx.createRadialGradient(pos.x, pos.y, radius * 0.25, pos.x, pos.y, radius);
 		grd.addColorStop(0, `rgba(255, 255, 255, 0.2)`);
@@ -86,5 +88,18 @@ export default class TouchTexture {
 		this.ctx.fillStyle = grd;
 		this.ctx.arc(pos.x, pos.y, radius, 0, Math.PI * 2);
 		this.ctx.fill();
+		/*let mouse = {
+			x: null,
+			y: null,
+			radius: 90
+		}
+		window.addEventListener('mousemove',
+			function(event){
+				mouse.x = event.x + this.canvas.clientLeft;
+				mouse.y = event.y + this.canvas.clientTop;
+				console.log('mouse: ')
+			});*/
+
 	}
+
 }

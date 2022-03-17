@@ -27,7 +27,11 @@ export default class WebGLView {
 
 		const rnd = ~~(Math.random() * this.samples.length);
 
-		this.goto(rnd);
+		this.goto(rnd)
+		setInterval(function(){
+			if (this.app.webgl.currSample < this.app.webgl.samples.length - 1) this.app.webgl.goto(this.app.webgl.currSample + 1);
+			else this.app.webgl.goto(0);
+		}, 5000);
 	}
 
 	initThree() {
