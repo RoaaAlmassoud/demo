@@ -60,9 +60,9 @@ a.clicked{
 	text-transform: lowercase;
 }
 
-/*#controlKit .panel{
+#controlKit .panel{
     display: none;
-}*/
+}
 
 .cursor {
 	pointer-events: none;
