@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7470aff2-a32b-4f52-931f-54527b042d80" name="Default Changelist" comment="">
+    <list default="true" id="7470aff2-a32b-4f52-931f-54527b042d80" name="Default Changelist" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/first-demo/first-demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/first-demo/first-demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/webgl/WebGLView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/webgl/WebGLView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/webgl/controls/InteractiveControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/webgl/controls/InteractiveControls.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/webgl/particles/Particles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/webgl/particles/Particles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/webgl/particles/TouchTexture.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/webgl/particles/TouchTexture.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shaders/particle2.frag" beforeDir="false" afterPath="$PROJECT_DIR$/src/shaders/particle2.frag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shaders/particle3.frag" beforeDir="false" afterPath="$PROJECT_DIR$/src/shaders/particle3.frag" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/static/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shaders/particle.vert" beforeDir="false" afterPath="$PROJECT_DIR$/src/shaders/particle.vert" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/base.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scripts/webgl/WebGLView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1096">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="369">
+              <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -35,11 +33,50 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scripts/webgl/controls/InteractiveControls.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/demo1.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="26" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scripts/gui/GUIView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scripts/webgl/particles/Particles.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="176" column="86" selection-start-line="176" selection-start-column="86" selection-end-line="176" selection-end-column="86" />
+            <state relative-caret-position="28">
+              <caret line="10" column="43" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="43" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -48,31 +85,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/first-demo/first-demo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/shaders/particle.vert">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shaders/particle2.frag">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="35" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="35" />
+            <state relative-caret-position="23">
+              <caret line="46" column="76" selection-start-line="46" selection-start-column="76" selection-end-line="46" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -80,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/shaders/particle1.frag">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="38" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="38" />
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -90,36 +106,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>this.touch</find>
-      <find>this.emit</find>
-      <find>interactive</find>
+      <find>uniforms</find>
+      <find>uniforms:</find>
+      <find>mousemou</find>
+      <find>ease</find>
+      <find>onMouseMove</find>
+      <find>this.tween</find>
+      <find>trail</find>
+      <find>tween</find>
+      <find>interactive-move</find>
+      <find>numPoints</find>
+      <find>mouse</find>
       <find>console</find>
-      <find>onInteractiveMove</find>
-      <find>display</find>
-      <find>InteractiveControls</find>
-      <find>maxAge</find>
-      <find>this.trail</find>
-      <find>click</find>
-      <find>this.radius</find>
-      <find>circle</find>
-      <find>drawTou</find>
-      <find>cli</find>
-      <find>clear</find>
-      <find>touch</find>
-      <find>addTouch</find>
-      <find>canvas</find>
-      <find>addTou</find>
+      <find>hovered</find>
+      <find>Three.Points</find>
+      <find>depth</find>
       <find>Mesh</find>
-      <find>Object3D</find>
-      <find>InstancedBufferGeometry</find>
-      <find>map</find>
-      <find>scene</find>
-      <find>UV</find>
-      <find>consol</find>
-      <find>unifo</find>
-      <find>uTouch</find>
-      <find>uv</find>
-      <find>intersection</find>
+      <find>camera</find>
+      <find>TweenMax</find>
+      <find>canvas1</find>
+      <find>raycaster</find>
+      <find>rangeSize</find>
+      <find>geometry</find>
+      <find>Tween</find>
+      <find>InteractiveControls</find>
+      <find>mesh</find>
+      <find>wireframeLinecap</find>
+      <find>THREE.Mesh</find>
+      <find>wireframe</find>
+      <find>GLSLIFY</find>
+      <find>uTime</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -147,29 +163,32 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/config/prod.js" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/scripts/index.js" />
         <option value="$PROJECT_DIR$/js/.htaccess" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/shaders/particle.frag" />
-        <option value="$PROJECT_DIR$/src/components/fouth-demo/fourth-demo.jsx" />
         <option value="$PROJECT_DIR$/src/components/third-demo/third-demo.jsx" />
         <option value="$PROJECT_DIR$/src/components/second-demo/second-demo.jsx" />
-        <option value="$PROJECT_DIR$/src/scripts/step1.js" />
         <option value="$PROJECT_DIR$/src/scripts/App.js" />
         <option value="$PROJECT_DIR$/src/particles.js" />
         <option value="$PROJECT_DIR$/src/components/main-layout/main-layout.js" />
-        <option value="$PROJECT_DIR$/src/components/first-demo/first-demo-component.jsx" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/static/css/base.css" />
         <option value="$PROJECT_DIR$/src/shaders/particle3.frag" />
         <option value="$PROJECT_DIR$/src/shaders/particle2.frag" />
-        <option value="$PROJECT_DIR$/static/css/base.css" />
-        <option value="$PROJECT_DIR$/src/scripts/gui/GUIView.js" />
-        <option value="$PROJECT_DIR$/src/scripts/webgl/particles/TouchTexture.js" />
-        <option value="$PROJECT_DIR$/src/shaders/particle.vert" />
-        <option value="$PROJECT_DIR$/src/scripts/webgl/WebGLView.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/first-demo/first-demo-component.jsx" />
         <option value="$PROJECT_DIR$/src/components/first-demo/first-demo.js" />
+        <option value="$PROJECT_DIR$/src/components/fouth-demo/fourth-demo.jsx" />
+        <option value="$PROJECT_DIR$/src/components/test" />
+        <option value="$PROJECT_DIR$/src/scripts/webgl/particles/TouchTexture.js" />
+        <option value="$PROJECT_DIR$/src/scripts/gui/GUIView.js" />
+        <option value="$PROJECT_DIR$/src/scripts/step1.js" />
+        <option value="$PROJECT_DIR$/static/css/base.css" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/shaders/particle1.frag" />
+        <option value="$PROJECT_DIR$/src/scripts/webgl/WebGLView.js" />
+        <option value="$PROJECT_DIR$/src/scripts/webgl/controls/InteractiveControls.js" />
+        <option value="$PROJECT_DIR$/src/shaders/particle.vert" />
         <option value="$PROJECT_DIR$/src/scripts/webgl/particles/Particles.js" />
       </list>
     </option>
@@ -201,33 +220,6 @@
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="first-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="fouth-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="third-demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo" type="b2602c69:ProjectViewProjectNode" />
@@ -381,7 +373,17 @@
       <workItem from="1646312365763" duration="1512000" />
       <workItem from="1646833635592" duration="14895000" />
       <workItem from="1647174686002" duration="14093000" />
-      <workItem from="1647498112968" duration="439000" />
+      <workItem from="1647498112968" duration="1094000" />
+      <workItem from="1648054282247" duration="2910000" />
+      <workItem from="1648128598025" duration="13779000" />
+      <workItem from="1648232745840" duration="12000" />
+      <workItem from="1648301130002" duration="1816000" />
+      <workItem from="1648340733494" duration="12039000" />
+      <workItem from="1648378537697" duration="1332000" />
+      <workItem from="1648382298750" duration="202000" />
+      <workItem from="1648401720942" duration="165000" />
+      <workItem from="1648418989678" duration="12388000" />
+      <workItem from="1648466849202" duration="5173000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1639582621635</created>
@@ -705,11 +707,25 @@
       <option name="project" value="LOCAL" />
       <updated>1645536716444</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="commit">
+      <created>1647498748172</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1647498748173</updated>
+    </task>
+    <task id="LOCAL-00048" summary="commit">
+      <created>1647499023503</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1647499023503</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="173225000" />
+    <option name="totallyTimeSpent" value="223696000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -722,13 +738,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="830" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2903453" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2903453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32806325" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -736,7 +751,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32880434" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3292683" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4989429" visible="true" weight="0.32674572" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.4989429" visible="true" weight="0.32674572" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010571" side_tool="true" weight="0.32791328" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32880434" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
@@ -774,35 +789,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/pub-g739ff477b_1920.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/fouth-demo/base.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/pub-g7193d946a_1920.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/second-demo/js/particles.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/download.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/second-demo/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/second-demo/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html" />
     <entry file="file://$PROJECT_DIR$/build/script.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -823,13 +809,6 @@
     <entry file="file://$PROJECT_DIR$/../interactive-particles/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/images/bicycle.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -838,16 +817,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/images/0220 MV①_earth_α.png" />
     <entry file="file://$PROJECT_DIR$/src/static/images/first (1).png" />
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -906,20 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="61" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/static/css/demo1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -955,27 +910,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/webgl/controls/InteractiveControls.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="119" column="38" selection-start-line="119" selection-start-column="27" selection-end-line="119" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/static/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3600">
-          <caret line="240" column="11" selection-start-line="240" selection-start-column="4" selection-end-line="240" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="930">
-          <caret line="62" column="2" selection-start-line="62" selection-end-line="64" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@brunoimbrizi/controlkit/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -983,65 +917,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1629">
-          <caret line="4168" column="86" selection-start-line="4168" selection-start-column="80" selection-end-line="4168" selection-end-column="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/three/build/three.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="27255" column="20" selection-start-line="27255" selection-start-column="6" selection-end-line="27255" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/second-demo/second-demo.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1845">
-          <caret line="123" column="40" selection-start-line="123" selection-start-column="34" selection-end-line="123" selection-end-column="40" />
+        <state relative-caret-position="105">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="12" />
           <folding>
-            <element signature="e#71#94#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/third-demo/third-demo.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/fouth-demo/fourth-demo.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="117" column="52" selection-start-line="117" selection-start-column="43" selection-end-line="117" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <element signature="e#413#3674#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/webgl/particles/TouchTexture.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shaders/particle.vert">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1052,16 +934,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/shaders/particle1.frag">
+    <entry file="file://$PROJECT_DIR$/src/components/third-demo/third-demo.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="38" />
+        <state relative-caret-position="254">
+          <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/first-demo/first-demo-component.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
+        <state relative-caret-position="180">
           <caret line="12" column="33" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="33" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
@@ -1069,37 +954,179 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/webgl/WebGLView.js">
+    <entry file="file://$PROJECT_DIR$/src/static/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1096">
-          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        <state relative-caret-position="3600">
+          <caret line="240" column="11" selection-start-line="240" selection-start-column="4" selection-end-line="240" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/static/css/demo1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43185">
+          <caret line="2892" column="4" selection-start-line="2892" selection-start-column="4" selection-end-line="2892" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/second-demo/second-demo.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#71#94#0" expanded="true" />
+            <element signature="e#1209#5400#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/gui/GUIView.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/three/examples/js/loaders/GCodeLoader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1231">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/test" />
+    <entry file="file://$PROJECT_DIR$/src/scripts/utils/easing.utils.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/utils/math.utils.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/first-demo/first-demo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="300">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="34" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/fouth-demo/fourth-demo.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="79" column="17" lean-forward="true" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="27" lean-forward="true" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/node/events.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="554" column="16" selection-start-line="554" selection-start-column="16" selection-end-line="554" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/webgl/particles/TouchTexture.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-368">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/step1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" lean-forward="true" selection-end-line="95" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/demo1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/gui/GUIView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/three/build/three.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3451">
+          <caret line="7328" column="4" selection-start-line="7328" selection-start-column="4" selection-end-line="7328" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shaders/particle1.frag">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/webgl/WebGLView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/webgl/controls/InteractiveControls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shaders/particle.vert">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="46" column="76" selection-start-line="46" selection-start-column="76" selection-end-line="46" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/webgl/particles/Particles.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="176" column="86" selection-start-line="176" selection-start-column="86" selection-end-line="176" selection-end-column="86" />
+        <state relative-caret-position="28">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="43" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>

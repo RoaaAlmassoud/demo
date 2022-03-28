@@ -17,8 +17,8 @@ export default class WebGLView {
 
 		this.samples = [
 			first,
-			second,
-			third
+			/*second,
+			third*/
 		];
 
 		this.initThree();
@@ -28,10 +28,10 @@ export default class WebGLView {
 		const rnd = ~~(Math.random() * this.samples.length);
 
 		this.goto(rnd)
-		setInterval(function(){
+		/*setInterval(function(){
 			if (this.app.webgl.currSample < this.app.webgl.samples.length - 1) this.app.webgl.goto(this.app.webgl.currSample + 1);
 			else this.app.webgl.goto(0);
-		}, 5000);
+		}, 5000);*/
 	}
 
 	initThree() {
@@ -50,7 +50,7 @@ export default class WebGLView {
 	}
 
 	initControls() {
-		this.interactive = new InteractiveControls(this.camera, this.renderer.domElement);
+		this.interactive = new InteractiveControls(this.camera, this.renderer.domElement, this.particles);
 	}
 
 	initParticles() {

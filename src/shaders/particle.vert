@@ -18,6 +18,7 @@ uniform float uSize;
 uniform vec2 uTextureSize;
 uniform sampler2D uTexture;
 uniform sampler2D uTouch;
+uniform vec2 uMouse;
 
 varying vec2 vPUv;
 varying vec2 vUv;
@@ -51,8 +52,8 @@ void main() {
 	// touch
 	float t = texture2D(uTouch, puv).r;
 	displaced.z += t * 20.0 * rndz;
-	displaced.x += cos(angle) * t * 20.0 * rndz;
-	displaced.y += sin(angle) * t * 20.0 * rndz;
+	displaced.x += cos(angle) * t * 20.0 * rndz * uMouse.x;
+	displaced.y += sin(angle) * t * 20.0 * rndz *  uMouse.y;
 
 	// particle size
 	float psize = (snoise_1_2(vec2(uTime, pindex) * 1.5) + 2.0);

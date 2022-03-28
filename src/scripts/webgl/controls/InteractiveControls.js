@@ -8,9 +8,10 @@ export default class InteractiveControls extends EventEmitter {
 
 	get enabled() { return this._enabled; }
 
-	constructor(camera, el) {
+	constructor(camera, el, particles) {
 		super();
 
+		this.particles = particles;
 		this.camera = camera;
 		this.el = el || window;
 
@@ -28,11 +29,23 @@ export default class InteractiveControls extends EventEmitter {
 		this.isDown = false;
 
 		this.browser = browser();
-
+		this.hoverables = document.querySelectorAll('.hoverable');
 		this.enable();
 	}
 
+	// Move the cursor
+	onMouseMove(e) {
+
+		this.bigBall = document.querySelector('.cursor__ball--big');
+		TweenMax.to(this.bigBall, .4, {
+			x: e.pageX - 15,
+			y: e.pageY - 15
+		})
+
+	}
+
 	enable() {
+		document.body.addEventListener('mousemove', this.onMouseMove);
 		if (this.enabled) return;
 		this.addListeners();
 		this._enabled = true;
@@ -97,6 +110,7 @@ export default class InteractiveControls extends EventEmitter {
 		this.mouse.y = -((touch.y + this.rect.y) / this.rect.height) * 2 + 1;
 
 		this.raycaster.setFromCamera(this.mouse, this.camera);
+
 
 		/*
 		// is dragging

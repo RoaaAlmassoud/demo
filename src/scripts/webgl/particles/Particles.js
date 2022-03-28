@@ -69,6 +69,7 @@ export default class Particles {
             uTextureSize: {value: new THREE.Vector2(this.width, this.height)},
             uTexture: {value: this.texture},
             uTouch: {value: null},
+            uMouse: {value: new THREE.Vector2(0.0, 0.0)},
         };
 
         let currSample = this.webgl.currSample
