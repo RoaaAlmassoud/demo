@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7470aff2-a32b-4f52-931f-54527b042d80" name="Default Changelist" comment="commit">
+    <list default="true" id="7470aff2-a32b-4f52-931f-54527b042d80" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scripts/webgl/WebGLView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/webgl/WebGLView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/webgl/controls/InteractiveControls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/webgl/controls/InteractiveControls.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/webgl/particles/Particles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/webgl/particles/Particles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shaders/particle.vert" beforeDir="false" afterPath="$PROJECT_DIR$/src/shaders/particle.vert" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/base.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/scripts/webgl/WebGLView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+            <state relative-caret-position="235">
+              <caret line="33" column="17" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="33" selection-end-column="17" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -48,8 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
+            <state relative-caret-position="325">
+              <caret line="67" column="25" lean-forward="true" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -72,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/scripts/webgl/particles/Particles.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="28">
@@ -106,7 +101,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>uniforms</find>
       <find>uniforms:</find>
       <find>mousemou</find>
       <find>ease</find>
@@ -136,6 +130,7 @@
       <find>wireframe</find>
       <find>GLSLIFY</find>
       <find>uTime</find>
+      <find>displa</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -183,13 +178,13 @@
         <option value="$PROJECT_DIR$/src/scripts/webgl/particles/TouchTexture.js" />
         <option value="$PROJECT_DIR$/src/scripts/gui/GUIView.js" />
         <option value="$PROJECT_DIR$/src/scripts/step1.js" />
-        <option value="$PROJECT_DIR$/static/css/base.css" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/shaders/particle1.frag" />
-        <option value="$PROJECT_DIR$/src/scripts/webgl/WebGLView.js" />
         <option value="$PROJECT_DIR$/src/scripts/webgl/controls/InteractiveControls.js" />
         <option value="$PROJECT_DIR$/src/shaders/particle.vert" />
         <option value="$PROJECT_DIR$/src/scripts/webgl/particles/Particles.js" />
+        <option value="$PROJECT_DIR$/static/css/base.css" />
+        <option value="$PROJECT_DIR$/src/scripts/webgl/WebGLView.js" />
       </list>
     </option>
   </component>
@@ -383,14 +378,7 @@
       <workItem from="1648382298750" duration="202000" />
       <workItem from="1648401720942" duration="165000" />
       <workItem from="1648418989678" duration="12388000" />
-      <workItem from="1648466849202" duration="5173000" />
-    </task>
-    <task id="LOCAL-00001" summary="commit">
-      <created>1639582621635</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1639582621635</updated>
+      <workItem from="1648466849202" duration="5693000" />
     </task>
     <task id="LOCAL-00002" summary="commit">
       <created>1640585454860</created>
@@ -721,11 +709,25 @@
       <option name="project" value="LOCAL" />
       <updated>1647499023503</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="commit">
+      <created>1648504072743</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1648504072743</updated>
+    </task>
+    <task id="LOCAL-00050" summary="commit">
+      <created>1648504135703</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1648504135704</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223696000" />
+    <option name="totallyTimeSpent" value="224216000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -738,6 +740,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2903453" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -1054,13 +1057,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/demo1.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/gui/GUIView.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1089,23 +1085,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/scripts/webgl/WebGLView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="74" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/scripts/webgl/controls/InteractiveControls.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8">
@@ -1129,6 +1108,30 @@
           <caret line="10" column="43" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="43" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/demo1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="67" column="25" lean-forward="true" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/webgl/WebGLView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="33" column="17" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="33" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
