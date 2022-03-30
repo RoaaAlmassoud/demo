@@ -38,8 +38,8 @@ export default class InteractiveControls extends EventEmitter {
 
 		this.bigBall = document.querySelector('.cursor__ball--big');
 		TweenMax.to(this.bigBall, .4, {
-			x: e.pageX - 15,
-			y: e.pageY - 15
+			x: e.pageX - 25,
+			y: e.pageY - 25
 		})
 
 	}
