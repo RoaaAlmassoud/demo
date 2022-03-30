@@ -17,6 +17,10 @@ export default class FirstDemo {
     }
 
 
+    componentWillMount() {
+        this.resize();
+    }
+
 
     initWebGL() {
         this.webgl = new WebGLView(this);
@@ -34,10 +38,12 @@ export default class FirstDemo {
         window.addEventListener('keyup', this.keyup.bind(this));
 
         const el = this.webgl.renderer.domElement;
+
         el.addEventListener('click', this.click.bind(this));
     }
 
     animate() {
+        //console.log('in animate')
         this.update();
         this.draw();
 

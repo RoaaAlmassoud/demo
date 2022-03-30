@@ -69,6 +69,7 @@ export default class WebGLView {
 	}
 
 	draw() {
+		//console.log('in draw')
 		this.renderer.render(this.scene, this.camera);
 	}
 
@@ -96,11 +97,23 @@ export default class WebGLView {
 	// ---------------------------------------------------------------------------------------------
 
 	resize() {
-		if (!this.renderer) return;
-		this.camera.aspect = window.innerWidth / window.innerHeight;
-		this.camera.updateProjectionMatrix();
 
-		this.fovHeight = 2 * Math.tan((this.camera.fov * Math.PI) / 180 / 2) * this.camera.position.z;
+		if (!this.renderer) return;
+		this.camera.aspect = (window.innerWidth) / (window.innerHeight);
+
+		this.camera.updateProjectionMatrix();
+		let frac = 2
+
+		if(window.innerWidth <= 686 && window.innerWidth >= 525){
+			frac = 2.3
+		}
+		else if(window.innerWidth <= 525){
+			frac = 3
+		}
+		else{
+			frac = 2
+		}
+		this.fovHeight = 2 * Math.tan((this.camera.fov * Math.PI) / 180 / frac) * this.camera.position.z;
 
 		this.renderer.setSize(window.innerWidth, window.innerHeight);
 

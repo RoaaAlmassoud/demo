@@ -30,7 +30,7 @@ export default class GUIView {
 		this.controlKit.addPanel({ width: 300, enable: false })
 
 		.addGroup({label: 'Touch', enable: true })
-		.addCanvas({ label: 'trail', height: 64 })
+		//.addCanvas({ label: 'trail', height: 64 })
 		.addSlider(this, 'touchRadius', 'rangeRadius', { label: 'radius', onChange: this.onTouchChange.bind(this) })
 		
 		.addGroup({label: 'Particles', enable: true })
@@ -40,11 +40,11 @@ export default class GUIView {
 		.addSlider(this, 'particlesSize', 'rangeSize', { label: 'size', onChange: this.onParticlesChange.bind(this) })
 
 		// store reference to canvas
-		const component = this.controlKit.getComponentBy({ label: 'trail' });
+		/*const component = this.controlKit.getComponentBy({ label: 'trail' });
 		if (!component) return;
 
 		this.touchCanvas = component._canvas;
-		this.touchCtx = this.touchCanvas.getContext('2d');
+		this.touchCtx = this.touchCanvas.getContext('2d');*/
 	}
 
 	initStats() {

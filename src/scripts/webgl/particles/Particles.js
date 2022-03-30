@@ -70,6 +70,7 @@ export default class Particles {
             uTexture: {value: this.texture},
             uTouch: {value: null},
             uMouse: {value: new THREE.Vector2(0.0, 0.0)},
+            viewport: {type: 'v2', value: new THREE.Vector2(window.innerWidth, window.innerHeight)}
         };
 
         let currSample = this.webgl.currSample
@@ -219,8 +220,8 @@ export default class Particles {
 
     resize() {
         if (!this.object3D) return;
-
         const scale = this.webgl.fovHeight / this.height;
+
         this.object3D.scale.set(scale, scale, 1);
         this.hitArea.scale.set(scale, scale, 1);
     }

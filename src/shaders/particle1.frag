@@ -1,13 +1,33 @@
 // @author brunoimbrizi / http://brunoimbrizi.com
 
 precision highp float;
+precision highp int;
 
 uniform sampler2D uTexture;
-
+uniform vec2 uMouse;
+uniform vec2 viewport;
 varying vec2 vPUv;
 varying vec2 vUv;
 
+float creatCircle(){
+	vec2 viewportUv = gl_FragCoord.xy / viewport/2.;
+	float viewportAspect = viewport.x / viewport.y;
+
+	vec2 mousePoint = vec2(uMouse.x, 1.0 - uMouse.y);
+	float circleRadius = max(0.0, 100. / viewport.x);
+
+	vec2 shapeUv = viewportUv - mousePoint;
+	shapeUv /= vec2(1.0, viewportAspect);
+	shapeUv += mousePoint;
+
+	float dist = distance(shapeUv, mousePoint);
+	dist = smoothstep(circleRadius, circleRadius * 0.001, dist);
+	return dist;
+
+}
+
 void main() {
+	float circle = creatCircle();
 	vec4 color = vec4(0.0);
 	vec2 uv = vUv;
 	vec2 puv = vPUv;
@@ -29,5 +49,6 @@ void main() {
 	color = vec4(0.522,0.322,0.949, 1);
 	color.a = t;
 
+	gl_FragColor = vec4(vec3(circle), 1.0);
 	gl_FragColor = color;
 }

@@ -7,7 +7,6 @@ import FourthDemo from '../src/components/fouth-demo/fourth-demo.jsx'
 export default class App extends Component {
     constructor(props) {
         super(props)
-        console.log('props in main out: ', props)
         this.state = {}
     }
 
@@ -36,7 +35,6 @@ export default class App extends Component {
 
 
     render() {
-        console.log('in App.js out')
         return (
             <div className={'main-container'}>
                 <div className="frame">
